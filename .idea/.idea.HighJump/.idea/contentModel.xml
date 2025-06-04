@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\aferi\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\aferi\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_HighJump.-786502225.00" t="ExcludeRecursive" />
-    <e p="C:\Users\aferi\AppData\Roaming\JetBrains\Rider2020.2\consoles\ide" t="IncludeRecursive" />
-    <e p="C:\Users\aferi\Documents\Project222\HighJump" t="IncludeRecursive">
+    <e p="C:\Users\Nikola\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Nikola\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_HighJump.1079318188.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Nikola\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
+    <e p="D:\adobe\unity projects\HighJump" t="IncludeRecursive">
       <e p="Analytics.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -466,11 +466,15 @@
             </e>
           </e>
           <e p="Menu" t="Include">
+            <e p="Level" t="Include">
+              <e p="LevelChooser.cs" t="Include" />
+            </e>
             <e p="PanelSwitcher.cs" t="Include" />
             <e p="Settings.cs" t="Include" />
             <e p="SoundSpriteSwitcher.cs" t="Include" />
             <e p="SoundTextSwitcher.cs" t="Include" />
             <e p="SoundVolumeSettings.cs" t="Include" />
+            <e p="Stats.cs" t="Include" />
             <e p="VibrationSettings.cs" t="Include" />
             <e p="VibrationSpriteSwitcher.cs" t="Include" />
             <e p="VibrationTextSwitcher.cs" t="Include" />

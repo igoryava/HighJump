@@ -36,6 +36,8 @@ public class GameTopStatsSaver : MonoBehaviour
             PlayerPrefs.SetFloat("TopHeight", height);
 
             PlayerPrefs.SetInt("TopLevel", _info.Current.Number);
+
+            Debug.Log(height);
         }
     }
 

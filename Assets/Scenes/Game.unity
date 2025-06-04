@@ -599,6 +599,7 @@ GameObject:
   - component: {fileID: 162664427}
   - component: {fileID: 162664426}
   - component: {fileID: 162664429}
+  - component: {fileID: 162664430}
   m_Layer: 0
   m_Name: HoldZone
   m_TagString: Untagged
@@ -623,8 +624,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -102.58002}
-  m_SizeDelta: {x: 0, y: -205.16}
+  m_AnchoredPosition: {x: 0, y: -836.36}
+  m_SizeDelta: {x: -477.37, y: -1754.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162664426
 MonoBehaviour:
@@ -655,6 +656,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 162664430}
+          m_TargetAssemblyTypeName: Lofelt.NiceVibrations.HapticSource, Lofelt.NiceVibrations
+          m_MethodName: Play
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - eventID: 3
     callback:
       m_PersistentCalls:
@@ -662,6 +675,18 @@ MonoBehaviour:
         - m_Target: {fileID: 260903965}
           m_TargetAssemblyTypeName: JumpBar, Assembly-CSharp
           m_MethodName: Release
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 162664430}
+          m_TargetAssemblyTypeName: Lofelt.NiceVibrations.HapticSource, Lofelt.NiceVibrations
+          m_MethodName: Stop
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -684,14 +709,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 61656a00e637ff344b9d703f1834ec34, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -722,6 +747,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _successState: {fileID: 680678043}
+--- !u!114 &162664430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162664424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d20df93fb7de8457baa15a213a53ab19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: -8404250095460277587, guid: 94d13bba61a684c9bb5b32530282b8df, type: 3}
+  priority: 128
+  _fallbackPreset: 0
+  _loop: 0
+  _level: 1
+  _frequencyShift: 0
 --- !u!1 &186265419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2748,6 +2791,7 @@ GameObject:
   - component: {fileID: 1117235157}
   - component: {fileID: 1117235156}
   - component: {fileID: 1117235155}
+  - component: {fileID: 1117235158}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2830,6 +2874,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1117235158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117235154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb29a83998eb4949bc0a9c8e5662fa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _outputLevel: 1
+  _hapticsEnabled: 1
 --- !u!1 &1119595037
 GameObject:
   m_ObjectHideFlags: 0
@@ -4815,7 +4873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 112734842bec62549842612dc75f01a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hapticReceiver: {fileID: 0}
+  _hapticReceiver: {fileID: 1117235158}
   <VibrationKey>k__BackingField: Vibration
 --- !u!222 &219609688511230251
 CanvasRenderer:

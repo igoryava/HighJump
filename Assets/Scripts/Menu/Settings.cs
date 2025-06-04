@@ -18,7 +18,7 @@ public class Settings : MonoBehaviour
         Time.timeScale = 1;
         _currentPanel = _menuCanvas;
     }
-    
+
     public void OpenClosePanel(GameObject panel)
     {
         _currentPanel.SetActive(false);
@@ -33,17 +33,17 @@ public class Settings : MonoBehaviour
             Time.timeScale = 1;
         }
     }
-    
+
     public void OnSoundVolumeChanged(SoundVolumeSettings soundVolumeSettings)
     {
         soundVolumeSettings.ChangeSoundVolume();
     }
-    
+
     public void OnVibrationStrengthChanged(VibrationSettings vibrationSettings)
     {
         vibrationSettings.ChangeVibrationStrength();
     }
-    
+
     public void Exit()
     {
         Application.Quit();
@@ -53,12 +53,12 @@ public class Settings : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
-    
+
     public void MiniGame()
     {
         SceneManager.LoadScene("MiniGame");
     }
-    
+
     public void Play()
     {
         int level = PlayerPrefs.GetInt("CompleatedLevels", 1);
@@ -78,7 +78,7 @@ public class Settings : MonoBehaviour
                 return;
             }
 
-            PlayerPrefs.SetInt("CurrentLevel", level);
+            PlayerPrefs.SetInt("CurrentLevel", level + 1);
             SceneManager.LoadScene("Game");
         }
     }

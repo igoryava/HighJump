@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0dc1285-55c1-4977-9a5b-5c3108934e70" name="Default Changelist" comment="" />
+    <list default="true" id="b0dc1285-55c1-4977-9a5b-5c3108934e70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +33,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GirlJump/JumpBar/JumpSliderStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSpriteSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Level/LevelChooser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Stats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/PanelSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -51,7 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/VibrationTextSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSpriteSwitcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/HowToPlaySwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PanelSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Level/LevelChooser.cs" />
@@ -59,6 +62,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Top/GameTopStatsSaver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Pause/Pause.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" />
       </list>
     </option>
   </component>
@@ -108,6 +112,7 @@
       <updated>1749052022953</updated>
       <workItem from="1749052025534" duration="7046000" />
       <workItem from="1749064459800" duration="2614000" />
+      <workItem from="1749068447811" duration="185000" />
     </task>
     <servers />
   </component>

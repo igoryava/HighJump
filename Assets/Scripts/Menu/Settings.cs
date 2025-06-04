@@ -56,7 +56,7 @@ public class Settings : MonoBehaviour
     
     public void MiniGame()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MiniGame");
     }
     
     public void Play()

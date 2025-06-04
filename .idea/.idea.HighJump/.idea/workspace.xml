@@ -21,10 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b0dc1285-55c1-4977-9a5b-5c3108934e70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level (1).prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Top/GameTopStatsSaver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Top/GameTopStatsSaver.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +37,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../Labirint1/Assets/Scripts/Menu/Settings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../holeInOne/Assets/Scripts/Settings/Settings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/PanelSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GirlJump/JumpBar/JumpSliderStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSpriteSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../holeInOne/Assets/Scripts/Settings/Settings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Top/GameTopStatsSaver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Level/LevelChooser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Stats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/PanelSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,6 +61,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/HowToPlaySwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PanelSwitcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Level/LevelChooser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/Top/GameTopStatsSaver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Stats.cs" />
       </list>
     </option>
   </component>
@@ -66,6 +77,7 @@
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
@@ -74,22 +86,19 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b0dc1285-55c1-4977-9a5b-5c3108934e70" name="Default Changelist" comment="" />
@@ -98,8 +107,12 @@
       <option name="presentableId" value="Default" />
       <updated>1749052022953</updated>
       <workItem from="1749052025534" duration="7046000" />
+      <workItem from="1749064459800" duration="1463000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -113,8 +126,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="871" height="696" key="SwitcherDM" timestamp="1749065121628">
+      <screen x="0" y="0" width="2560" height="1394" />
+    </state>
+    <state width="871" height="696" key="SwitcherDM/-1440.534.1440.854/0.0.2560.1394@0.0.2560.1394" timestamp="1749065121628" />
   </component>
 </project>

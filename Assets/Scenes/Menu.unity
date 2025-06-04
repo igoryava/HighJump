@@ -803,6 +803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 9088784365238795190, guid: 0547b13d2f0e7eb408a7fbf2603cfd7e, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: d7096a57fccc03d45ad807e6365a0fe0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1092,6 +1096,7 @@ GameObject:
   - component: {fileID: 408889228}
   - component: {fileID: 408889230}
   - component: {fileID: 408889229}
+  - component: {fileID: 408889231}
   m_Layer: 5
   m_Name: Stats
   m_TagString: Untagged
@@ -1162,6 +1167,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408889227}
   m_CullTransparentMesh: 1
+--- !u!114 &408889231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 408889227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0a353114a201bc4d978f412db8bcac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _topLevelText: {fileID: 885198632}
+  _topHeightText: {fileID: 272034714}
+  _rate: {fileID: 945236806}
 --- !u!1001 &417287059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1264,6 +1284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9088784365238795190, guid: 0547b13d2f0e7eb408a7fbf2603cfd7e, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: 79dd2d2fdd65f8449b3828c0771e1115, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1376,6 +1400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 9088784365238795190, guid: 0547b13d2f0e7eb408a7fbf2603cfd7e, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: d8d027e1f4c1e55429f32836f6b14f67, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2211,6 +2239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 9088784365238795190, guid: 0547b13d2f0e7eb408a7fbf2603cfd7e, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: a1d2084811a06a1419d67d6c73cf51d1, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2598,6 +2630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 9088784365238795190, guid: 0547b13d2f0e7eb408a7fbf2603cfd7e, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: b677c4be62384b4449002ca40a38f2c2, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5264,6 +5300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 9088784365238795190, guid: 0547b13d2f0e7eb408a7fbf2603cfd7e, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: 4b0a78909ba15a7489964ac8af6a8f21, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5846,7 +5886,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SUCCESS RATE
+  m_text: TOP LEVEL
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ba2ee7df98af5940bed9834ccd1188e, type: 2}
   m_sharedMaterial: {fileID: -3132552725646767457, guid: 1ba2ee7df98af5940bed9834ccd1188e, type: 2}
@@ -6850,6 +6890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9088784365238795190, guid: 0547b13d2f0e7eb408a7fbf2603cfd7e, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: 27f063165482e594691a4433e8553866, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7038,6 +7082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9088784365238795190, guid: 0547b13d2f0e7eb408a7fbf2603cfd7e, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: 39da0dca28cc48144ab4361670c68e7d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7359,6 +7407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 9088784365238795190, guid: 0547b13d2f0e7eb408a7fbf2603cfd7e, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: 16f40292cf821634495d0c6c9f1a7980, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8130,6 +8182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9088784365238795190, guid: 0547b13d2f0e7eb408a7fbf2603cfd7e, type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 11400000, guid: 644cbb091deef4b47b77a21784dc9a0a, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -23,7 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MiniGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsLoader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +73,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame/MinIGameSliderStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame/MiniGameSliderUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame/MiniGameSliderStatsUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame/MiniGameSlider.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsLoader.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +121,7 @@
       <workItem from="1749064459800" duration="1463000" />
       <workItem from="1749112806790" duration="2103000" />
       <workItem from="1749117177563" duration="573000" />
-      <workItem from="1749117983674" duration="71000" />
+      <workItem from="1749117983674" duration="1022000" />
     </task>
     <servers />
   </component>

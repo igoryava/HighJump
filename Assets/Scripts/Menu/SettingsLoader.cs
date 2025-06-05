@@ -18,15 +18,17 @@ public class SettingsLoader : MonoBehaviour
 //КОСТЫЛЬ МОЙ
     private void CheckSettings()
     {
-        if (PlayerPrefs.GetInt("VolumeOn" + "SoundVolume") == 0)
+        if (PlayerPrefs.GetInt("VolumeOn" + "SoundVolume", 1) == 0)
         {
             _mixer.SetFloat("SoundVolume", -80f);
         }
-        if (PlayerPrefs.GetInt("VolumeOn" + "MusicVolume") == 0)
+
+        if (PlayerPrefs.GetInt("VolumeOn" + "MusicVolume", 1) == 0)
         {
             _mixer.SetFloat("MusicVolume", -80f);
         }
-        if (PlayerPrefs.GetInt("VibrationOn" + "Vibration") == 0)
+
+        if (PlayerPrefs.GetInt("VibrationOn" + "Vibration", 1) == 0)
         {
             _haptic.enabled = false;
         }

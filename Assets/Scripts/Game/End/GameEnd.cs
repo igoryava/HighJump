@@ -30,9 +30,11 @@ public class GameEnd : MonoBehaviour
 
     public void NextLevel()
     {
-        PlayerPrefs.SetInt("CurrentLevel", PlayerPrefs.GetInt("CurrentLevel", 1) + 1);
         if (PlayerPrefs.GetInt("CurrentLevel", 1) >= 10)
             PlayerPrefs.SetInt("CurrentLevel", 1);
+        else
+            PlayerPrefs.SetInt("CurrentLevel", PlayerPrefs.GetInt("CurrentLevel", 1) + 1);
+
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

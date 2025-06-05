@@ -6971,7 +6971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clip: {fileID: -8404250095460277587, guid: 01f1a722d69d74aa39b5fd30a899412d, type: 3}
   priority: 0
-  _fallbackPreset: -1
+  _fallbackPreset: 8
   _loop: 0
   _level: 1
   _frequencyShift: 0

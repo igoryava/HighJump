@@ -461,6 +461,9 @@
               <e p="LevelInfo.cs" t="Include" />
               <e p="LevelUi.cs" t="Include" />
             </e>
+            <e p="Pause" t="Include">
+              <e p="Pause.cs" t="Include" />
+            </e>
             <e p="Top" t="Include">
               <e p="GameTopStatsSaver.cs" t="Include" />
             </e>

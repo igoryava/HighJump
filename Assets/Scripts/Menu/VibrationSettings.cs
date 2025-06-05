@@ -42,7 +42,7 @@ public class VibrationSettings : MonoBehaviour
         else
         {
             EnableHaptic(false);
-            PlayerPrefs.SetInt("VolumeOn"+ VibrationKey, 0);
+            PlayerPrefs.SetInt("VibrationOn"+ VibrationKey, 0);
             StateChanged?.Invoke(_vibrationOn);
             _vibrationOn = false;
         }

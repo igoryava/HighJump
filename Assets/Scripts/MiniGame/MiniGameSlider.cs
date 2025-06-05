@@ -14,7 +14,7 @@ public class MiniGameSlider : MonoBehaviour
     private CompositeDisposable _disposable = new CompositeDisposable();
     private void Start()
     {
-        _startPosition = transform.position;
+        _startPosition = transform.localPosition;
         MoveSlider();
     }
 
@@ -36,7 +36,7 @@ public class MiniGameSlider : MonoBehaviour
     {
         Observable.EveryUpdate().Subscribe(_ =>
         {
-            transform.position = _startPosition + transform.right * Mathf.Sin(Time.time * _speed) * _magitude;
+            transform.localPosition = _startPosition + transform.right * Mathf.Sin(Time.time * _speed) * _magitude;
         }).AddTo(_disposable);
     }
 

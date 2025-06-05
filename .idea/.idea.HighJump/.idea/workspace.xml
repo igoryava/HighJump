@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0dc1285-55c1-4977-9a5b-5c3108934e70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HighJump/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MiniGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MiniGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PanelSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PanelSwitcher.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +36,22 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiniGame/SliderGrade.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiniGame/MiniGameSlider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiniGame/MinIGameSliderStats.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/SettingsLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiniGame/MinIGameSliderStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Stats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/PanelSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiniGame/MiniGameSliderStatsUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Level/LevelChooser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GirlJump/JumpBar/JumpSliderStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../holeInOne/Assets/Scripts/Settings/Settings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiniGame/MiniGameSlider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiniGame/MiniGameSliderStatsUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSpriteSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Pause/Pause.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../holeInOne/Assets/Scripts/Settings/Settings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Top/GameTopStatsSaver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Level/LevelChooser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,8 +64,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSpriteSwitcher.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Settings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/HowToPlaySwitcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PanelSwitcher.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Level/LevelChooser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/Top/GameTopStatsSaver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/VibrationSettings.cs" />
@@ -74,8 +73,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame/MiniGameSliderUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame/MiniGameSliderStatsUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MiniGame/MiniGameSlider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/SettingsLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/End/GameEnd.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/Level/LevelChooser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PanelSwitcher.cs" />
       </list>
     </option>
   </component>
@@ -97,16 +98,22 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -122,6 +129,7 @@
       <workItem from="1749112806790" duration="2103000" />
       <workItem from="1749117177563" duration="573000" />
       <workItem from="1749117983674" duration="1022000" />
+      <workItem from="1749120729811" duration="2320000" />
     </task>
     <servers />
   </component>

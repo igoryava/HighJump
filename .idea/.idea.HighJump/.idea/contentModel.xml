@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Nikola\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Nikola\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_HighJump.1079318188.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Nikola\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
-    <e p="D:\adobe\unity projects\HighJump" t="IncludeRecursive">
+    <e p="C:\Users\aferi\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\aferi\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_HighJump.-786502225.00" t="ExcludeRecursive" />
+    <e p="C:\Users\aferi\AppData\Roaming\JetBrains\Rider2020.2\consoles\ide" t="IncludeRecursive" />
+    <e p="C:\Users\aferi\Documents\Project222\HighJump" t="IncludeRecursive">
       <e p="Analytics.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -3237,26 +3237,6 @@
                 </e>
               </e>
               <e p="Security" t="Include">
-                <e p="AppleValidator.cs" t="Include" />
-                <e p="Asn1Processor" t="Include">
-                  <e p="Asn1EndOfIndefiniteLengthNodeType.cs" t="Include" />
-                  <e p="Asn1Node.cs" t="Include" />
-                  <e p="Asn1Parser.cs" t="Include" />
-                  <e p="Asn1Tag.cs" t="Include" />
-                  <e p="Asn1Util.cs" t="Include" />
-                  <e p="IAsn1Node.cs" t="Include" />
-                  <e p="Oid.cs" t="Include" />
-                  <e p="RelativeOid.cs" t="Include" />
-                  <e p="Util.cs" t="Include" />
-                </e>
-                <e p="AssemblyInfo.cs" t="Include" />
-                <e p="Certificate.cs" t="Include" />
-                <e p="CrossPlatformValidator.cs" t="Include" />
-                <e p="GooglePlayReceipt.cs" t="Include" />
-                <e p="GooglePlayValidator.cs" t="Include" />
-                <e p="Obfuscator.cs" t="Include" />
-                <e p="PKCS7.cs" t="Include" />
-                <e p="RSAPubKey.cs" t="Include" />
                 <e p="UnityEngine.Purchasing.Security.asmdef" t="Include" />
               </e>
               <e p="SecurityCore" t="Include">
@@ -7403,10 +7383,11 @@
       <e p="UnityEngine.Purchasing.Codeless.Player.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.Purchasing.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.Purchasing.Player.csproj" t="IncludeRecursive" />
-      <e p="UnityEngine.Purchasing.Security.Player.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.Purchasing.Security.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.Purchasing.SecurityCore.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.Purchasing.SecurityCore.Player.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.Purchasing.SecurityStub.csproj" t="IncludeRecursive" />
+      <e p="UnityEngine.Purchasing.SecurityStub.Player.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.Purchasing.Stores.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.Purchasing.Stores.Player.csproj" t="IncludeRecursive" />
       <e p="UnityEngine.Purchasing.WinRT.csproj" t="IncludeRecursive" />

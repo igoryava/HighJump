@@ -20,6 +20,10 @@ public class GameEnd : MonoBehaviour
 
     private void OnSuccess()
     {
+        if (PlayerPrefs.GetInt("CurrentLevel", 1) <= PlayerPrefs.GetInt("CompleatedLevels"))
+        {
+            return;
+        }
         PlayerPrefs.SetInt("CompleatedLevels", PlayerPrefs.GetInt("CurrentLevel", 1));
     }
 
